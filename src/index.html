@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U-Analyst</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+          <img src="images/logo.png" class="me-2" />
+          <span class="brand-text"> <span class="brand-u">U</span><span class="brand-analyst">-Analyst</span> </span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#home">Tentang</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Harga</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">U-Analyst</h1>
+        <div class="hero-divider"></div>
+        <p class="hero-subtitle">Analisis data material yang akurat dan terpercaya untuk mendukung penelitian ilmiah Anda.</p>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="py-5 text-center">
+      <div class="container">
+        <div class="mb-5">
+          <h2 class="section-title fw-bold">Produk dan Layanan</h2>
+          <div class="section-divider mx-auto my-3"></div>
+          <p class="text-muted section-description">
+            Layanan analisis data komprehensif untuk karakterisasi material, mencakup pengolahan, interpretasi, dan visualisasi hasil
+            pengukuran dengan pendekatan ilmiah yang akurat dan terpercaya.
+          </p>
+        </div>
+
+        <div class="row justify-content-center g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <img src="images/xrd.jpg" class="service-img" />
+              <div class="p-4">
+                <h4 class="fw-semibold mb-3">X-ray Diffraction</h4>
+                <p>Identifikasi fasa, perhitungan ukuran kristalit, dan penyempurnaan struktur menggunakan data difraksi sinar-X.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <img src="images/ftir.jpg" class="service-img" />
+              <div class="p-4">
+                <h4 class="fw-semibold mb-3">Fourier Transform Infrared Spectroscopy</h4>
+                <p>Identifikasi gugus fungsi dan analisis ikatan molekul melalui interpretasi spektrum inframerah.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <img src="images/sem.jpeg" class="service-img" />
+              <div class="p-4">
+                <h4 class="fw-semibold mb-3">Scanning Electron Microscopy</h4>
+                <p>Analisis morfologi permukaan, distribusi ukuran partikel, dan karakterisasi mikrostruktur pada skala nano.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <img src="images/tem.jpeg" class="service-img" />
+              <div class="p-4">
+                <h4 class="fw-semibold mb-3">Transmission Electron Microscopy</h4>
+                <p>Pencitraan resolusi tinggi dan pemetaan orientasi kristal menggunakan mikroskop elektron transmisi.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <img src="images/uvvis.png" class="service-img" />
+              <div class="p-4">
+                <h4 class="fw-semibold mb-3">UV-Vis Spectroscopy</h4>
+                <p>Penentuan celah pita optik serta analisis absorbansi/transmitansi untuk film tipis dan larutan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="py-5">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Column 1 -->
+          <div class="col-md-4">
+            <h5 class="fw-bold text-uppercase">U-Analyst</h5>
+            <p>
+              Analisis data lanjutan untuk karakterisasi material dan kristalografi. Mendukung kegiatan akademik dan penelitian dengan hasil
+              analisis yang presisi dan andal.
+            </p>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="col-md-4">
+            <!-- Row 1 -->
+            <div class="mb-4">
+              <h6 class="fw-bold">Alamat Laboratorium</h6>
+              <p>
+                Laboratorium Fisika Material<br />
+                Gedung JICA FPMIPA A, Lantai 3<br />
+                Universitas Pendidikan Indonesia<br />
+                Jl. Dr. Setiabudi No. 229, Bandung 40154, Jawa Barat
+              </p>
+            </div>
+
+            <!-- Row 2 -->
+            <div>
+              <h6 class="fw-bold">Kontak</h6>
+              <p>Email: <a href="mailto:u.analyst@upi.edu">u.analyst@upi.edu</a></p>
+              <p>Telepon: <span class="text-muted">+62 895 6969 19482</span></p>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="col-md-4">
+            <h6 class="fw-bold">Sosial Media</h6>
+            <p>
+              Ikuti kami di media sosial:<br />
+              <a href="#">Instagram</a> | <a href="#">LinkedIn</a> |
+              <a href="#">ResearchGate</a>
+            </p>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="text-center text-muted">© 2025 U-Analyst — Dikembangkan untuk Inovasi Akademik</div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
